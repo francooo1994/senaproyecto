@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon.png"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>Proyecto Chontaduro</title>
+  </head>
+  <body>
+    <header>
+      <div class="inicio_container_menu" onclick="OpenNav()">
+        <!--
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="inicio_container_img_menu"
+          id="img-menu"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+        -->
+        <img
+          src="/assets/manuhamburguesa.png"
+          alt="menu"
+          class="inicio_container_img_menu"
+          id="img-menu"
+        />
+        <nav id="menu-icon">
+          <ul id="lista">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#proyecto">Proyecto</a></li>
+            <li><a href="#comic">Comic</a></li>
+            <li><a href="#documentales">Documentales</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="boton-up"><span class="ir-arriba icon-arrow-up2"
+      >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inicio_container_img_up-icono">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+      </svg>
+      </div>
+    </span>
+    <section class="inicio_container" id="inicio">
+      <div class="inicio_container_title">
+        <h1 class="inicio_title_p">
+          EL CHONTADURO UNA FRUTA
+          <span class="inicio_subtitulo_p">CON HISTORIA Y CULTURA</span>
+        </h1>
+      </div>
+    </section>
+    <section class="pagina2_container" id="proyecto">
+      <div class="pagina2_container_title">
+        <h1 class="pagina2_title_p">Proyecto Chontaduro</h1>
+      </div>
+      <div class="pagina2_container_parrafo">
+        <p class="pagina2_parrafo">
+          Un grupo de aprendices se unieron para crear un proyecto multimedial
+          con el objetivo de resaltar una de las cosas que tanto nos distinguen
+          como ciudadanos del departamento del Valle del Cauca de los demás,
+          como vendría siendo el chontaduro. Este grupo de aprendices llegaron a
+          la conclusión de que la mejor manera de cumplir su objetivo era por
+          medio de distintas estrategias multimediales las cuales fueron
+          elegidas lo que es el documental, el cómic y la creación de una página
+          web interactiva que contenga las dos cosas mencionadas anteriormente
+          para el uso y comodidad de los usuarios.
+        </p>
+      </div>
+
+      <!--
+      <div class="pagina2_container_up-icono">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="inicio_container_img_up-icono"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M5 11l7-7 7 7M5 19l7-7 7 7"
+          />
+        </svg>
+      </div>
+      -->
+    </section>
+    <section class="pagina3_container" id="comic">
+      <div class="pagina3_img-info">
+        <div class="pagina3_container_img-miniatura">
+          <img
+            src="/assets/miniatura comic.png"
+            alt="img-comic"
+            class="pagina3_img-miniatura"
+          />
+        </div>
+        <div class="texto-comic">
+          <div class="pagina3_container_title">
+            <h1 class="pagina3_title_p">Fruto de la Salvación</h1>
+          </div>
+          <div class="pagina3_container_parrafo">
+            <p class="pagina3_parrafo">
+              Cuenta la historia de Killari, una chica indígena de 19 años
+              nativa del Amazonas dispuesta a hacer lo que sea necesario por su
+              tribu Los Kenja. Aun después de ser afectadad por la radiación y
+              tener que enfrentar las adversidades del mundo que dejó la tercera
+              guerra mundial que acabó con casi todo rastro de la raza humana y
+              provocó que los pocos sobrevivientes tuvieran que buscar otras
+              soluciones a las secuelas, ¿Qué le depara a Killari en su viaje
+              por descubrir este nuevo mundo?
+            </p>
+          </div>
+          <div class="pagina3_container_btn-comic">
+            <a href="comic.html" target="_blank" class="btn_comic">Ver Comic</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pagina4_container" id="documentales">
+      <div class="pagina4_container_title">
+        <h1 class="pagina4_title_p">Documentales Chontaduro</h1>
+      </div>
+      <div class="pagina4_iconos">
+        <div class="pagina4_icono1" id="btn_left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icono-left"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </div>
+        <div class="pagina4_icono1" id="btn_right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icono-right"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="pagina4_documentales" id="container_documentales">
+        <div class="pagina4_container_documentales">
+          <div class="pagina4_container_documentales-element">
+            <div class="pagina4_container_img-miniatura">
+              <div class="pagina4_container_video-doc1">
+                <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/0b20xnISjP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+                <video
+                  controls
+                  poster="/assets/Documental1.png"
+                  class="pagina4_img-miniatura"
+                >
+                  <source
+                    src="/assets/Valle-del-chontaduro-Documental.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="pagina4_container_parrafo">
+            <h2 class="pagina4_container_titulo-doc1">Valle del Chontaduro</h2>
+            <p class="pagina4_parrafo">
+              Este es un breve relato sobre como los comerciantes del Chontaduro
+              en la ciudad de Cali como llegaron a unos puntos estratégicos de
+              venta y se convirtió luego en lugares reconocidos para en consumo
+              de esta fruta
+            </p>
+          </div>
+        </div>
+        <div class="pagina4_container_documentales">
+          <div class="pagina4_container_documentales-element">
+            <div class="pagina4_container_img-miniatura">
+              <div class="pagina4_container_video-doc1">
+                <!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/0b20xnISjP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+                <video
+                  controls
+                  poster="/assets/Documental2.png"
+                  class="pagina4_img-miniatura"
+                >
+                  <source
+                    src="/assets/documental-chontaduro.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+          <div class="pagina4_container_parrafo">
+            <h2 class="pagina4_container_titulo-doc1">
+              Descendencia del Chontaduro
+            </h2>
+            <p class="pagina4_parrafo">
+              En nuestro documental queremos reflejar la importancia que tienen
+              los vendedores ambulantes, así que mostramos un poco de sus vidas
+              y lo importante que ha sido el vender chontaduro para ellos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pagina5_container" id="nosotros">
+      <div class="pagina5_container_title">
+        <h1 class="pagina5_title_p">Creadores del Proyecto</h1>
+      </div>
+      <div class="pagina5_iconos">
+        <div class="pagina5_icono1" id="btn_izq">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icono-left"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </div>
+        <div class="pagina5_icono1" id="btn_der">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icono-right"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="pagina5_container_component-card" id="container_card" >
+
+      <div class="pagina5_container_component-card1_body">
+        <div class="pagina5_container_component-card1">
+          <div class="pagina5_container_component-card1_circulo">
+            <img
+              src="/assets/eve.png"
+              alt="foto_evelyn"
+              class="pagina5_container_component-card1_img"
+            />
+          </div>
+          <div class="pagina5_container_component-card1_texto">
+            <div class="pagina5_container_component-card1_title">
+              <h1 class="component-card1_titulo">Evelin Gutierrez</h1>
+            </div>
+            <div class="pagina5_container_component-card1_description">
+              <p class="component_card1_parrafo">
+                Tiene 18 años, es Productora Multimedia, apasionada por el
+                mundo de la fotografía y el maquillaje artístico y
+                profesional, le gusta bailar, la música de todo tipo y le
+                gusta el diseño gráfico.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagina5_container_component-card1_body">
+        <div class="pagina5_container_component-card1">
+          <div class="pagina5_container_component-card1_circulo">
+            <img
+              src="/assets/franco.png"
+              alt="foto_franco"
+              class="pagina5_container_component-card1_img"
+            />
+          </div>
+          <div class="pagina5_container_component-card1_texto">
+            <div class="pagina5_container_component-card1_title">
+              <h1 class="component-card1_titulo">Andres Franco</h1>
+            </div>
+            <div class="pagina5_container_component-card1_description">
+              <p class="component_card1_parrafo">
+                Tiene 28 años y es Diseñador Multimedial, apasionado por los
+                video juegos, el desarrollo de paginas web, la edición de
+                videos y la fotografía le gusta el futbol, la música los
+                malabares. Le encanta la Multimedial.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagina5_container_component-card1_body">
+        <div class="pagina5_container_component-card1">
+          <div class="pagina5_container_component-card1_circulo">
+            <img
+              src="/assets/pao.png"
+              alt="foto_evelyn"
+              class="pagina5_container_component-card1_img"
+            />
+          </div>
+          <div class="pagina5_container_component-card1_texto">
+            <div class="pagina5_container_component-card1_title">
+              <h1 class="component-card1_titulo">Paola Castro</h1>
+            </div>
+            <div class="pagina5_container_component-card1_description">
+              <p class="component_card1_parrafo">
+                Tiene 20 años, productora multimedia, apasionada por el diseñó
+                gráfico, le gusta el dibujo y todo del mundo del arte en
+                general.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="pagina5_container_component-card1_body">
+    <div class="pagina5_container_component-card1">
+      <div class="pagina5_container_component-card1_circulo">
+        <img
+          src="/assets/dann.png"
+          alt="foto_evelyn"
+          class="pagina5_container_component-card1_img"
+        />
+      </div>
+      <div class="pagina5_container_component-card1_texto">
+        <div class="pagina5_container_component-card1_title">
+          <h1 class="component-card1_titulo">Daniel Riascos</h1>
+        </div>
+        <div class="pagina5_container_component-card1_description">
+          <p class="component_card1_parrafo">
+            Tiene 21, diseñador multimedial con gran pasión por el diseño
+            gráfico en general pero mayor preferencia al Photoshop. Un
+            chico con gran amor por el baile, la música y el manga.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagina5_container_component-card1_body">
+    <div class="pagina5_container_component-card1">
+      <div class="pagina5_container_component-card1_circulo">
+        <img
+          src="/assets/jeff.png"
+          alt="foto_franco"
+          class="pagina5_container_component-card1_img"
+        />
+      </div>
+      <div class="pagina5_container_component-card1_texto">
+        <div class="pagina5_container_component-card1_title">
+          <h1 class="component-card1_titulo">Jefry Martinez</h1>
+        </div>
+        <div class="pagina5_container_component-card1_description">
+          <p class="component_card1_parrafo">
+            Tiene 19 años, Productor de Multimedia, le apasionan el diseño
+            en general(en especial el gráfico), le gustan los videojuegos,
+            el cine, la música y la mayoría de cosas relacionadas con el
+            mundo digital.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pagina5_container_component-card1_body">
+    <div class="pagina5_container_component-card1">
+      <div class="pagina5_container_component-card1_circulo">
+        <img
+          src="/assets/smtih.png"
+          alt="foto_evelyn"
+          class="pagina5_container_component-card1_img"
+        />
+      </div>
+      <div class="pagina5_container_component-card1_texto">
+        <div class="pagina5_container_component-card1_title">
+          <h1 class="component-card1_titulo">Daniel Smith</h1>
+        </div>
+        <div class="pagina5_container_component-card1_description">
+          <p class="component_card1_parrafo">
+            Tiene 19 años, Productor Multimedia, le Apasiona la tecnología
+            y el deporte. Amante de las películas y los videojuegos, la
+            edición y el mundo digital.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_proyecto"><p class="txt_footer">Servicio Nacional de Aprendizaje SENA-Centro de Diseño Tecnológico Industrial-Regional Valle del Cauca</p></div>
+    </footer>
+    <script src="/app.js"></script>
+    <script src="/menu.js"></script>
+    <script src="/sliderNosotros.js"></script>
+  </body>
+</html>
